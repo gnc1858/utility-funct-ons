@@ -1,8 +1,7 @@
 
-function randomN(range){
-    
-    return console.log(Math.floor(Math.random()*range))
+function getRandomNumber(arr){
+    let length=arr.length;
+    return console.log(arr[Math.floor(Math.random()*length)])
 }
 
-randomN(120)
-console.log("heyy")
+getRandomNumber([1,3,4,6])
