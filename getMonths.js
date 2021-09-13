@@ -7,6 +7,6 @@ function getMonthName(place){
         'march',
         "april",
         "may",
-        "june"
+        "june😅"
     ]
 } 
