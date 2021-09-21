@@ -3,7 +3,7 @@
 function getUrlSlug(url){
     return url
         .trim()
-        .replace(/\s+/g,"-")
+        .replace(/\s+/g,"/")
         .toLowerCase();
 }
 
